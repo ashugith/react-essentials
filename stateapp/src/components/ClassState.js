@@ -8,15 +8,33 @@ class ClassSate extends Component {
             director: 'vidhu vinod chopra'
         }
     }
+        // updateMovie = () => {
+        //     this.setState(
+        //         {
+        //             movie: 'Barfi',
+        //             actor: 'Ranbir',
+        //             director: 'Anurag Basu'
+        //         }
+        //     )
+
+        // }
+        //toggle between two values
         updateMovie = () => {
-            this.setState(
-                {
+            if(this.state.isUpdate){
+                this.setState({
+                    movie: '12th fail',
+                    actor: 'Vikrant',
+                    director: 'Vidhu Vinod Chopra',
+                    isUpdate : false
+                })
+            }else{
+                this.setState({
                     movie: 'Barfi',
                     actor: 'Ranbir',
-                    director: 'Anurag Basu'
-                }
-            )
-
+                    director: 'Anurag Basu',
+                    isUpdate: true
+                })
+            }
         }
         render() {
             return(
@@ -24,7 +42,8 @@ class ClassSate extends Component {
                 <h2>Movies Name</h2>
                 <p>Movie: {this.state.movie}</p>
                 <p>Actor: {this.state.actor}</p>
-                <p>Director{this.state.director}</p>
+                <p>Director: {this.state.director}</p>
+                <button onClick= {this.updateMovie}>Update State</button>
                 </>
             )
         }
