@@ -1,0 +1,33 @@
+import { Component } from "react";
+class ClassSate extends Component {
+    constructor(){
+        super()
+        this.state = {
+            movie: '12th fail',
+            actor: 'vikrant',
+            director: 'vidhu vinod chopra'
+        }
+    }
+        updateMovie = () => {
+            this.setState(
+                {
+                    movie: 'Barfi',
+                    actor: 'Ranbir',
+                    director: 'Anurag Basu'
+                }
+            )
+
+        }
+        render() {
+            return(
+                <>
+                <h2>Movies Name</h2>
+                <p>Movie: {this.state.movie}</p>
+                <p>Actor: {this.state.actor}</p>
+                <p>Director{this.state.director}</p>
+                </>
+            )
+        }
+    }
+
+export default ClassSate
