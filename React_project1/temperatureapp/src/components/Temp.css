@@ -1,0 +1,50 @@
+.app-container{
+    width: 350px;
+    height: 400px;
+    background-color: navy;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 10px yellow;
+}
+.temp-display-container{
+    display: flex;
+}
+.temp-display{
+    width: 220px;
+    height: 200px;
+    background-color: rgb(71, 163, 132);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 5px solid rgb(227, 186, 97);
+}
+.cold{
+    background-color: rgb(71, 163, 132);
+}
+.hot{
+    background-color: orangered;
+    border: 5px solid black;
+}
+
