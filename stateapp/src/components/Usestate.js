@@ -2,8 +2,8 @@ import { useState } from "react"
 const Usestate = () => {
     const [movie, setMovie] = useState('2 states')
     const [actor, setActor] = useState('Arjun Kapoor')
-    function udateDetails (){
-        setMovie('Animal')
+     function udateDetails (){
+         setMovie('Animal')
         setActor('Ranbir Kapoor')
     }
     return (
