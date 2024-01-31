@@ -49,3 +49,7 @@
     border: 5px solid black;
 }
 
+.icon {
+    font-size: 40px ;
+    border-radius: 50%;
+}

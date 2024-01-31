@@ -23,8 +23,8 @@ const Temp = () => {
                 </div>
             </div>
             <div className='button-container'>
-                <button onClick={incrementTemp}>+</button>
-                <button onClick={decrementTemp}>-</button>
+                <button onClick={incrementTemp} className='icon'>+</button>
+                <button onClick={decrementTemp}  className='icon'>-</button>
             </div>
         </div>
     )
