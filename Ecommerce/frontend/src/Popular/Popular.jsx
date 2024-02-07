@@ -7,6 +7,7 @@ const Popular = () => {
     <div className>
       
     </div>
+    
   )
 }
 
