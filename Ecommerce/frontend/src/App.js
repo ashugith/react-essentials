@@ -5,7 +5,6 @@ import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product'
 import LoginSignup from './Pages/LoginSignup'
-import Hero from './Hero/Hero'
 
 
 
@@ -26,7 +25,7 @@ function App() {
       <Route path='/login' element={<LoginSignup/>}/>
      </Routes>
      </BrowserRouter>
-     <Hero></Hero>
+     
       
 
       
