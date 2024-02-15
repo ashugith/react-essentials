@@ -6,6 +6,9 @@ import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product'
 import LoginSignup from './Pages/LoginSignup'
 import Footer from './Footer/Footer';
+import men_banner from './Assets/banner_mens.png'
+import women_banner from './Assets/banner_women.png'
+
 
 
 
