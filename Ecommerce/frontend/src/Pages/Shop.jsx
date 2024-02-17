@@ -4,6 +4,7 @@ import Hero from '../Hero/Hero'
 import Offers from '../Offers/Offers'
 import NewCollections from '../NewCollections/NewCollections'
 import NewsLetter from '../NewsLetter/NewsLetter'
+import ShopCategory from '../Pages/ShopCategory'
 
 const Shop  = () => {
   return (
@@ -13,6 +14,7 @@ const Shop  = () => {
       <Offers/>
       <NewCollections/>
       <NewsLetter/>
+      <ShopCategory/>
       
     </div>
   )
