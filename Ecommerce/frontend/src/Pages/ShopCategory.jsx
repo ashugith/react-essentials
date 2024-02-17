@@ -1,5 +1,6 @@
 import React,{useContext} from 'react'
 import './CSS/ShopCategory.css'
+import all_product from '../Assets/all_product'
 import { ShopContext } from '../Context/ShopContext'
 import dropdown_icon from '../Assets/dropdown_icon.png'
 import Item from '../Item/Item'
@@ -20,8 +21,8 @@ const ShopCategory = (props) => {
       </div>
       <div className="shopcategory-products">
         {all_product.map((item,i)=>{
-          if(props.category===item.category){
-            return <Item key={i}  id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/> 
+          if (props.category===item.category) {
+            return <Item key={i}  id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
 
           }
           else{
