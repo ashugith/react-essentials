@@ -21,7 +21,6 @@ function App() {
           <Route path="/show" element={<Show/>}></Route>
           <Route path="*" element={<ErrorPage/>}></Route>
       </Routes>
-      <h1 className='text-danger'>Project</h1>
     </div>
   );
 }
