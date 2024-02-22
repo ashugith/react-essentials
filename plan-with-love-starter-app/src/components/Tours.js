@@ -1,5 +1,5 @@
 
-function Tours ({tours}) {
+function Tours ({tours , removeTour}) {
     return (
         <div>
             <div>
@@ -8,7 +8,7 @@ function Tours ({tours}) {
             <div>
                 {
                     tours.map((tour)=> {
-                        return <Card {...tour}>
+                        return <Card {...tour} removeTour={removeTour}>
 
                         </Card>
 
