@@ -5,7 +5,8 @@ import email_icon from '../Assets/email.png'
 import password_icon from '../Assets/password.png'
 
 const LoginSignup = ()  => {
-     const [action , setAction] = useState("Login");
+     const [action , setAction] = useState("Login")
+      
   return (
     <div className='container'>
         <div className="header">
@@ -16,18 +17,18 @@ const LoginSignup = ()  => {
         <div className="inputs">
             {action==="Login"?<div></div>:<div className="input">
                 <img src={user_icon} alt="user_icon"/>
-                <input type="text" placeholder='Name'/>
+                <input type="text" autoComplete='off' placeholder='Name'/>
                 </div>}
             
 
                 <div className="input">
                 <img src={email_icon} alt="email_icon"/>
-                <input type="email" placeholder='Email Id'/>
+                <input type="email" autoComplete='off' placeholder='Email Id'/>
                 </div>
 
                 <div className="input">
-                <img src={password_icon} alt="password_icon"/>
-                <input type="password" placeholder='Password'/>
+                <img src={password_icon} alt="password"/>
+                <input type="password" autoComplete='off' placeholder='Password'/>
             </div>
             {action==="Sign Up" ? <div></div>:<div className="forgot-password">Lost Password? <span>Click Here!</span></div>}
             <div className="submit-container">
