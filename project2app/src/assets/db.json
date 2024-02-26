@@ -1,7 +1,29 @@
 {
-    "customer": [
-        {
-            "id":1
-        }
-    ]
+  "customer": [
+    {
+      "id": 1
+    },
+    {
+      "name": "Ashu",
+      "email": "0234ashi@gmail.com",
+      "pickup_address": "jabalpur",
+      "destination_address": "jabalpur",
+      "contact": "6483899300230",
+      "city": "jabalpur",
+      "state": "madhya pradesh",
+      "zipcode": "482002",
+      "id": 2
+    },
+    {
+      "name": "Arnika",
+      "email": "arnika123@gmail.com",
+      "pickup_address": "Pune",
+      "destination_address": "Pune",
+      "contact": "8965993057",
+      "city": "Pune",
+      "state": "maharashtra",
+      "zipcode": "486007",
+      "id": 3
+    }
+  ]
 }

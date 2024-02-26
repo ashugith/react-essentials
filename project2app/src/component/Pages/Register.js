@@ -12,9 +12,6 @@ const Register = () => {
     reset ()
 }
 
-
-
-
   return (
       <>
           <img src={G} alt="Gimage" className='img w-100'/>
