@@ -24,6 +24,17 @@
       "state": "maharashtra",
       "zipcode": "486007",
       "id": 3
+    },
+    {
+      "name": "Prateek",
+      "email": "prateek@gmail.com",
+      "pickup_address": "Nagpur",
+      "destination_address": "Nagpur",
+      "contact": "7898959095",
+      "city": "Nagpur",
+      "state": "maharashtra",
+      "zipcode": "48004",
+      "id": 4
     }
   ]
 }
