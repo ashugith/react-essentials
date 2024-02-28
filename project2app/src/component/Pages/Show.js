@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { NavLink } from "react-router-dom";
 const Show = () => {
 
 
@@ -49,7 +50,7 @@ const Show = () => {
                                     <td>{x.state}</td>
                                     <td>{x.zipcode}</td>
                                     <td>
-                                        <button className="btn btn-warning me-1">Edit</button>
+                                       <NavLink to={`/customer/update/${x.id}`}> <button className="btn btn-warning me-1">Edit</button></NavLink>
                                         <button className=" btn btn-danger">Delete</button>
                                     </td>
                                 </tr>

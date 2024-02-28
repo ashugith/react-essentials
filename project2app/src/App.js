@@ -20,7 +20,7 @@ function App() {
           <Route path="/gallery" element={<Gallery/>}></Route>
           <Route path="/register" element={<Register/>}></Route>
           <Route path="/show" element={<Show/>}></Route>
-          <Route path="/customer/update:customerID"></Route>
+          <Route path="/customer/update/:customerID" element={<Edit/>}></Route>
           <Route path="*" element={<ErrorPage/>}></Route>
       </Routes>
     </div>
