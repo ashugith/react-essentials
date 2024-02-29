@@ -19,7 +19,9 @@ const Edit = () => {
   useEffect(()=>{
     fetchData()
   }, [])
-  function saveData(){
+  function saveData(data){
+    axios.put(`http://localhost:8080/customer/${customerID},data`)
+    alert("Data updated successfully")
 
   }
   return (

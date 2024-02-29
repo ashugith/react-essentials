@@ -57,6 +57,17 @@
       "state": "madhya pradesh",
       "zipcode": "482002",
       "id": 6
+    },
+    {
+      "name": "Aman",
+      "email": "aman123@gmail.com",
+      "pickup_address": "Indore",
+      "destination_address": "Bhopal",
+      "contact": "7893893922",
+      "city": "Bhopal",
+      "state": "madhya pradesh",
+      "zipcode": "46007",
+      "id": 7
     }
   ]
 }
