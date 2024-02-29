@@ -50,7 +50,7 @@ const Show = () => {
                                     <td>{x.state}</td>
                                     <td>{x.zipcode}</td>
                                     <td>
-                                       <NavLink to={`/customer/update/${x.id}`}> <button className="btn btn-warning me-1">Edit</button></NavLink>
+                                       <NavLink to={`/customer/update/${x.id}`}><button className="btn btn-warning me-1">Edit</button></NavLink>
                                         <button className=" btn btn-danger">Delete</button>
                                     </td>
                                 </tr>

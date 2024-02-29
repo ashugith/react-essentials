@@ -7,6 +7,7 @@ import Home from './component/Pages/Home';
 import Register from './component/Pages/Register';
 import Show from './component/Pages/Show';
 import ErrorPage from './component/Pages/ErrorPage'
+import Edit from './component/Pages/Edit'
 function App() {
  
 

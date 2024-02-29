@@ -35,6 +35,28 @@
       "state": "maharashtra",
       "zipcode": "48004",
       "id": 4
+    },
+    {
+      "name": "Pranav",
+      "email": "pranav@gmail.com",
+      "pickup_address": "jabalpur",
+      "destination_address": "jabalpur",
+      "contact": "6483899300",
+      "city": "jabalpur",
+      "state": "madhya pradesh",
+      "zipcode": "482002",
+      "id": 5
+    },
+    {
+      "name": "Ashu",
+      "email": "0234ashi@gmail.com",
+      "pickup_address": "jabalpur",
+      "destination_address": "jabalpur",
+      "contact": "6483899300230",
+      "city": "jabalpur",
+      "state": "madhya pradesh",
+      "zipcode": "482002",
+      "id": 6
     }
   ]
 }
