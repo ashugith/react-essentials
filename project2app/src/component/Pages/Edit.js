@@ -15,7 +15,10 @@ const Edit = () => {
     setValue("email" , result.data.email)
     setValue("pickup_address" , result.data.pickup_address)
     setValue("destination_address" , result.data.destination_address)
-    
+    setValue("contact" , result.data.contact)
+    setValue("city" , result.data.city)
+    setValue("state" , result.data.state)
+    setValue("zipcode" , result.data.zipcode)
     
   }
   useEffect(()=>{
