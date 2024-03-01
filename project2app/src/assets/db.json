@@ -1,7 +1,7 @@
 {
   "customer": [
     {
-      "id": 1
+      "id": "1"
     },
     {
       "name": "Ashu",
@@ -12,7 +12,7 @@
       "city": "jabalpur",
       "state": "madhya pradesh",
       "zipcode": "482002",
-      "id": 2
+      "id": "2"
     },
     {
       "name": "Arnika",
@@ -23,7 +23,7 @@
       "city": "Pune",
       "state": "maharashtra",
       "zipcode": "486007",
-      "id": 3
+      "id": "3"
     },
     {
       "name": "Prateek",
@@ -34,7 +34,7 @@
       "city": "Nagpur",
       "state": "maharashtra",
       "zipcode": "48004",
-      "id": 4
+      "id": "4"
     },
     {
       "name": "Pranav",
@@ -45,7 +45,7 @@
       "city": "jabalpur",
       "state": "madhya pradesh",
       "zipcode": "482002",
-      "id": 5
+      "id": "5"
     },
     {
       "name": "Ashu",
@@ -56,7 +56,7 @@
       "city": "jabalpur",
       "state": "madhya pradesh",
       "zipcode": "482002",
-      "id": 6
+      "id": "6"
     },
     {
       "name": "Aman",
@@ -67,7 +67,29 @@
       "city": "Bhopal",
       "state": "madhya pradesh",
       "zipcode": "46007",
-      "id": 7
+      "id": "7"
+    },
+    {
+      "id": "e0f0",
+      "name": "Anamika",
+      "email": "anamika123@gmail.com",
+      "pickup_address": "Rewa",
+      "destination_address": "Mumbai",
+      "contact": "789067899",
+      "city": "Mumbai",
+      "state": "maharashtra",
+      "zipcode": "48007"
+    },
+    {
+      "id": "4df3",
+      "name": "Rahul",
+      "email": "rahul@gmail.com",
+      "pickup_address": "Satna",
+      "destination_address": "Satna",
+      "contact": "789999908",
+      "city": "Satna",
+      "state": "madhya pradesh",
+      "zipcode": "8999"
     }
   ]
 }
