@@ -3,11 +3,12 @@ import './Edit.css'
 import G from '../../assets/G.jpeg'
 import { useForm } from 'react-hook-form'
 import axios from 'axios'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 const Edit = () => {
   const {register , handleSubmit , setValue} = useForm()
   const {customerID} = useParams()
+  const navigate = useNavigate()
   async function fetchData () {
     const result =  await axios.get(`http://localhost:8080/customer/${customerID}`)
     setValue("name" , result.data.name)
@@ -23,6 +24,7 @@ const Edit = () => {
   function saveData(data){
     axios.put(`http://localhost:8080/customer/${customerID},data`)
     alert("Data updated successfully")
+    navigate(`/show`)
 
   }
   return (
