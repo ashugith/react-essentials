@@ -17,6 +17,7 @@ const Show = () => {
     useEffect(()=>{
         getData()
     },[])
+
     const filterData = customer.filter((customer)=>{
         return
     customer.name.toLowerCase().includes(searchName.toLowerCase())
