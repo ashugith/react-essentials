@@ -25,9 +25,9 @@ const Edit = () => {
     fetchData()
   }, [])
   function saveData(data){
-    axios.put(`http://localhost:8080/customer/${customerID},data`)
+    axios.put(`http://localhost:8080/customer/${customerID}`,data)
     alert("Data updated successfully")
-    navigate(`/show`)
+    navigate('/show')
 
   }
   return (
