@@ -5,6 +5,7 @@ const Delete = () => {
     const {customerID} = useParams()
     const navigate = useNavigate ()
     async function fetchData(){
-        const result = await axios.get()
+        const result = await axios.get(`http://localhost:8080/customer/${customerID}`)
+            setCustomer(result.data)
     }
 }
