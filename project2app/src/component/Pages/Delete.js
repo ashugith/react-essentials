@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import './Delete.css'
 import { useNavigate, useParams ,NavLink } from "react-router-dom"
 
 const Delete = () => {

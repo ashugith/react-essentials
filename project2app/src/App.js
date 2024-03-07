@@ -22,6 +22,7 @@ function App() {
           <Route path="/register" element={<Register/>}></Route>
           <Route path="/show" element={<Show/>}></Route>
           <Route path="/customer/update/:customerID" element={<Edit/>}></Route>
+          <Route path='/customer/delete/:customerID'element={<Delete/>}></Route>
           <Route path="*" element={<ErrorPage/>}></Route>
       </Routes>
     </div>
