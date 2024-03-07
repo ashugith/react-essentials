@@ -25,6 +25,14 @@ const Show = () => {
     return(
         <>
            <h2>Customer Details</h2>
+           <div className="row container mb-5">
+            <label className="form-label col3 fs-3 text-primary">Search Customer Data :-</label>
+            <div className="col-9">
+                <input type = "search" className="form-control" onChange={(e)=> setsearchName(e.target.value)}/>
+                
+            </div>
+
+           </div>
            <table className="table">
                 <thead>
                     <tr>
