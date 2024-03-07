@@ -5,6 +5,7 @@ const Show = () => {
 
 
     const [customer,setCustomer] = useState([])
+    const [searchName , setsearchName] = useState([])
 
 
     async function getData () {
@@ -29,7 +30,7 @@ const Show = () => {
             <label className="form-label col3 fs-3 text-primary">Search Customer Data :-</label>
             <div className="col-9">
                 <input type = "search" className="form-control" onChange={(e)=> setsearchName(e.target.value)}/>
-                
+
             </div>
 
            </div>
@@ -64,7 +65,7 @@ const Show = () => {
                                     <td>{x.zipcode}</td>
                                     <td>
                                        <NavLink to={`/customer/update/${x.id}`}><button className="btn btn-warning me-1">Edit</button></NavLink>
-                                        <button className=" btn btn-danger">Delete</button>
+                                        <NavLink to={`/customer/delete/${x.id}`}><button className=" btn btn-danger">Delete</button></NavLink>
                                     </td>
                                 </tr>
                             )
