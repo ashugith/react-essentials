@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 
 const Delete = () => {
@@ -8,4 +9,8 @@ const Delete = () => {
         const result = await axios.get(`http://localhost:8080/customer/${customerID}`)
             setCustomer(result.data)
     }
+
+    useEffect(() => {
+        fetchData ()
+    }, [])
 }
