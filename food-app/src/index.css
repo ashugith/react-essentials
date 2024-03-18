@@ -94,4 +94,17 @@
     text-transform: uppercase;
     transition: all 0.3s ease-in-out;
    }
+
+   .order_now:hover ,
+   .order_now:focus {
+    color:var(--white);
+    background:transparent;
+    border-color: var(--white);
+   }
+
+   .btn_red {
+    color:var(--white);
+    background:var(--light-red);
+    border-color: var(--light-red);
+   }
   
