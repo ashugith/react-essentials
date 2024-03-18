@@ -78,4 +78,20 @@
    ::-webkit-scrollbar-thumb{
     background: var(--yellow);
    }
+
+   /* Common Button */
+
+   .order_now{
+    color:var(--light-black);
+    background:var (--yellow);
+    border-color: var(--yellow);
+    padding:15px 38px;
+    font-size:18px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    font-family:var(--oswald-font);
+    vertical-align: middle;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+   }
   
