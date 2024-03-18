@@ -105,6 +105,12 @@
    .btn_red {
     color:var(--white);
     background:var(--light-red);
-    border-color: var(--light-red);
+    border-color:(--light-red);
+   }
+
+   .btn_red:hover , .btn_red:focus {
+    color:var(--light-red);
+    background:transparent;
+    border-color:var(--light-red);
    }
   
