@@ -6,6 +6,7 @@ function Home() {
     <>
     <Layout>
       <div>Home</div>
+      <div>Footer</div>
     </Layout>
     </>
   )
