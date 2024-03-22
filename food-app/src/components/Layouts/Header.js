@@ -38,6 +38,11 @@ function Header() {
             <Nav.Link as={Link} to ="/contact">
                Contact
             </Nav.Link>
+            <Nav.Link as={Link} to ="/">
+               <div className='cart'>
+               <i class="bi bi-bag fs-5"></i>
+               </div>
+            </Nav.Link>
            </Nav>
         </Navbar.Collapse>
         
