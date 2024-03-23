@@ -10,7 +10,7 @@ function Header() {
      <Navbar bg="light" data-bs-theme="light">
       <Container>
         <Navbar.Brand href="#home">
-          <Link>
+          <Link to="/" className='logo'>
              <img src={Logo} alt="Logo" className="img-fluid"/>
 
           </Link>
