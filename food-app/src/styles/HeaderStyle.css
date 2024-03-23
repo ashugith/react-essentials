@@ -47,7 +47,7 @@ header .logo img {
 header .nav-link{
     display: inline-flex;
     justify-content: center;
-    color:var(--white);
+    color:var(--light-black);
     padding:0 1rem !important;
     font-size: 1.25rem;
     font-weight: 500;
@@ -84,5 +84,15 @@ header .roundpoint{
     position:absolute;
     top: 3.2px;
     right: -8px;
+}
+
+/* Media Query CSS */
+@media (max-width: 992px){
+    header .navbar{
+        background-color: var(--white);
+    }
+    header .navbar-toggler {
+        border: none;
+    }
 }
 
