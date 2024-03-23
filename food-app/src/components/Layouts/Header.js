@@ -6,7 +6,7 @@ import Logo from '../../assets/logo/logo.png'
 
 function Header() {
   return (
-    <>
+    <header>
      <Navbar bg="light" data-bs-theme="light">
       <Container>
         <Navbar.Brand href="#home">
@@ -49,7 +49,7 @@ function Header() {
         
       </Container>
     </Navbar>
-    </>
+    </header>
   )
 }
 
