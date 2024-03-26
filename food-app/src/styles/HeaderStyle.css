@@ -94,5 +94,19 @@ header .roundpoint{
     header .navbar-toggler {
         border: none;
     }
+    header .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    header .navbar-toggler-icon{
+
+        width: 2.5rem ;
+        height: 2.5rem;
+
+    }
+    header .nav-link {
+        color: var(--light-black);
+        padding: 1rem !important;
+    }
 }
 
