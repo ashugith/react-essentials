@@ -2,9 +2,9 @@ import React from 'react'
 
 function Section1() {
   return (
-    <div>
-      
-    </div>
+    <section className='hero'>
+
+    </section>
   )
 }
 
