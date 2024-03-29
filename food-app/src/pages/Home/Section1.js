@@ -19,6 +19,12 @@ function Section1() {
                 </div>
             </div>
           </Col>
+          <Col lg={5}>
+            <div className="hero_text text-center">
+              <h1 className='text-white'>New Burger</h1>
+              <h2 className='text-white'>With Onion</h2>
+            </div>
+          </Col>
         </Row>
       </Container>
 
