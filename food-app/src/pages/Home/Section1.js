@@ -23,6 +23,10 @@ function Section1() {
             <div className="hero_text text-center">
               <h1 className='text-white'>New Burger</h1>
               <h2 className='text-white'>With Onion</h2>
+              <p className='text-white pt-2 pb-4'>
+                his
+
+              </p>
             </div>
           </Col>
         </Row>
