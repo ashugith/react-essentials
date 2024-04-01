@@ -83,7 +83,7 @@
 
    .order_now{
     color:var(--light-black);
-    background:var (--yellow);
+    background:yellow;
     border-color: var(--yellow);
     padding:15px 38px;
     font-size:18px;
