@@ -24,8 +24,10 @@ function Section1() {
               <h1 className='text-white'>New Burger</h1>
               <h2 className='text-white'>With Onion</h2>
               <p className='text-white pt-2 pb-4'>
-                his
-
+              Burgers can also be seamlessly paired with additional fixings. Sautéed onions, 
+              mushrooms, cheeses, vegetables, ketchup, 
+              mustard, and other add-ons allow us to create a burger in our own image. 
+              A burger isn't just a burger in American culture, it's our burger.
               </p>
             </div>
           </Col>
