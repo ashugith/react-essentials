@@ -1,7 +1,8 @@
 import React from 'react'
 import { Container, Row , Col } from 'react-bootstrap'
-import Burger from "../../assets/hero/hero-2.png"
+import Burger from "../../assets/hero/hero-2.png";
 import { Link } from 'react-router-dom'
+import "../../styles/HomeStyle.css"
 
 function Section1() {
   return (
@@ -30,7 +31,7 @@ function Section1() {
               mustard, and other add-ons allow us to create a burger in our own image. 
               A burger isn't just a burger in American culture, it's our burger.
               </p>
-              <Link to="/" className="btn order_now">
+              <Link to="/" className=" order_now">
                 Order Now
               </Link>
             </div>
