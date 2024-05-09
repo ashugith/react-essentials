@@ -61,8 +61,8 @@ const Dashboard = () => {
         <h1 className="text-xl font-bold mb-2">All Launches</h1>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2 text-[16px] mt-2 cursor-pointer ">
           {launchData.map((launch) => (
-            <div key={launch.flight_id} className="bg-sky-50 p-4 rounded-lg shadow-md hover:bg-[#2D2D67] hover:text-white transition duration-500 ease-in-out transform" onClick={() => handleCardClick(launch)}>
-              <h3 className="flex items-center font-bold gap-2 justify-between text-[#ff7676]">
+            <div key={launch.flight_id} className="bg-sky-50 p-4 rounded-lg shadow-md hover:bg-[#99154B] hover:text-white transition duration-500 ease-in-out transform" onClick={() => handleCardClick(launch)}>
+              <h3 className="flex items-center font-bold gap-2 justify-between text-[#F17EB8]">
                 <span className="text-[16px]">Mission Name - </span>
                 <span className="text-[14px] ">{launch.mission_name}</span>
               </h3>
