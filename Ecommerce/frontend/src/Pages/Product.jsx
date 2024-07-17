@@ -1,4 +1,6 @@
 import React, { useContext } from 'react'
+import useParams from 'react'
+import ShopContext from './Shop'
 
 const Product = () => {
   const {all_product} = useContext(ShopContext)

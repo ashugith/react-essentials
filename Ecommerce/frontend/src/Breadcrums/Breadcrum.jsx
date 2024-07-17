@@ -1,18 +1,18 @@
- import React from 'react'
- import './Breadcrum.css'
- import a
+//  import React from 'react'
+//  import './Breadcrum.css'
+//  import a
 
  
- const Breadcrum = (props) => {
-    const {product} = props;
-   return (
+//  const Breadcrum = (props) => {
+//     const {product} = props;
+//    return (
 
-     <div className='breadcrum'>
-        HOME
+//      <div className='breadcrum'>
+//         HOME
        
-     </div>
-   )
- }
+//      </div>
+//    )
+//  }
  
- export default Breadcrum
+//  export default Breadcrum
  
